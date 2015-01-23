@@ -1,0 +1,42 @@
+{
+    "name": "fleshgrinder/url-validator",
+    "description": "A regular expression to validate URLs.",
+    "keywords": [
+        "url",
+        "uri",
+        "validation",
+        "regex",
+        "regexp",
+        "regular expression"
+    ],
+    "authors": [
+        {
+            "name": "Richard Fussenegger",
+            "email": "richard@fussenegger.info",
+            "homepage": "http://richard.fussenegger.info"
+        }
+    ],
+    "license": "Unlicense",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "Fleshgrinder\\Validator\\": [ "src/Fleshgrinder/Validator" ]
+        }
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fleshgrinder\\Validator\\": [ "test/Fleshgrinder/Validator" ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "support": {
+        "email": "richard@fussenegger.info",
+        "issues": "https://github.com/Fleshgrinder/php-url-validator/issues",
+        "source": "https://github.com/Fleshgrinder/php-url-validator.git"
+    }
+}

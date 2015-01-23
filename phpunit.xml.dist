@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         strict="true"
+         verbose="true">
+    <filter>
+        <blacklist>
+            <directory suffix=".php">./test</directory>
+            <directory suffix=".php">./vendor</directory>
+        </blacklist>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./src</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="./var/test-coverage" charset="UTF-8" highlight="true"/>
+    </logging>
+</phpunit>
