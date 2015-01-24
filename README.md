@@ -1,6 +1,7 @@
 # URL Validation
-I made this repository specifically for Mathias Bynens' little “in search of the perfect URL validation regex” challenge
- and if I may spoiler you from the beginning, mine is not perfect. But it is a step closer to it.
+I made this repository specifically for Mathias Bynens' little “[in search of the perfect URL validation regex]
+(in search of the perfect URL validation regex)” challenge and if I may spoiler you from the beginning, mine is not
+perfect. But it is a step closer to it.
 
 The regular expression contains parts from [Diego Perini's regular expression and the comments on his Gist]
 (https://gist.github.com/dperini/729294) as well as some stuff from the [Symfony URL constraint pattern]
@@ -37,7 +38,7 @@ The provided unit test has a 100% coverage of the little class and the code is P
   * Fragment
 
 ## TODO
-* IPv6 address validation totally relies on [PHP's `filter_var`](https://php.net/filter-var) implementation, find a way
+* IPv6 address validation totally relies on [PHP's `filter_var`](https://php.net/filter-var) implementation, find a way 
   to validate it with the regular expression.
 * Port the regular expression to JavaScript for usage in HTML input URL elements and of course JavaScript itself.
 * Find more funny URLs for the unit test.

@@ -87,9 +87,11 @@ final class URL
                 )
             )
             (?::(?\'port\'\d+))?
-            (?\'path\'\/[^\?\#\s[:cntrl:]]*)?
-            (?:\?(?\'query\'[^\#\s[:cntrl:]]*))?
-            (?:\#(?\'fragment\'[^\s[:cntrl:]]*))?
+            (?:(?=\/)
+                (?\'path\'\/[^\?\#\s[:cntrl:]]*)?
+                (?:\?(?\'query\'[^\#\s[:cntrl:]]*))?
+                (?:\#(?\'fragment\'[^\s[:cntrl:]]*))?
+            )?
         $/DiuUx';
 
 

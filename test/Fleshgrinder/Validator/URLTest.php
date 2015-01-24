@@ -128,8 +128,6 @@ final class URLTest extends \PHPUnit_Framework_TestCase
             array("http://[::FFFF:129.144.52.38]:80/index.html"),
             array("http://[2010:836B:4179::836B:4179]"),
             array("http://a.b--c.de/"),
-            array("http://www.foo#bar.com"),
-            array("http://www.foo?bar.com"),
             array("http://www.foo´bar.com"),
         );
     }
@@ -273,6 +271,7 @@ final class URLTest extends \PHPUnit_Framework_TestCase
             array("http://www.foo bar.com"),
             array("http://www.foo!bar.com"),
             array('http://www.foo"bar.com'),
+            array("http://www.foo#bar.com"),
             array('http://www.foo$bar.com'),
             array("http://www.foo%bar.com"),
             array("http://www.foo&bar.com"),
@@ -287,6 +286,7 @@ final class URLTest extends \PHPUnit_Framework_TestCase
             array("http://www.foo<bar.com"),
             array("http://www.foo=bar.com"),
             array("http://www.foo>bar.com"),
+            array("http://www.foo?bar.com"),
             array("http://www.foo[bar.com"),
             array('http://www.foo\bar.com'),
             array("http://www.foo]bar.com"),
