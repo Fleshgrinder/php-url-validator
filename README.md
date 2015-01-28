@@ -1,6 +1,6 @@
 # URL Validation
 I made this repository specifically for Mathias Bynens' little “[in search of the perfect URL validation regex]
-(in search of the perfect URL validation regex)” challenge and if I may spoiler you from the beginning, mine is not
+(https://mathiasbynens.be/demo/url-regex)” challenge and if I may spoiler you from the beginning, mine is not
 perfect. But it is a step closer to it.
 
 The regular expression contains parts from [Diego Perini's regular expression and the comments on his Gist]
