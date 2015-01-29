@@ -24,7 +24,7 @@ The provided unit test has a 100% coverage of the little class and the code is P
 * Full [Internationalized Domain Name (IDN)](https://en.wikipedia.org/wiki/Internationalized_domain_name) support.
 * Full support for [Punycode](https://en.wikipedia.org/wiki/Punycode).
 * Support for IPv4 and IPv6 addresses as hostname.
-* Extraction of URL parts (like [`parse_url`](https://php.net/parse-url):
+* Extraction of URL parts (like [`parse_url`](https://php.net/parse-url)):
   * Scheme (aka protocol)
   * Username
   * Password
