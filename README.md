@@ -37,11 +37,21 @@ The provided unit test has a 100% coverage of the little class and the code is P
   * Query
   * Fragment
 
+## Install
+The class and tests are available via [composer](https://getcomposer.org/).
+
+```shell
+composer require fleshgrinder/url-validator dev-master
+```
+
 ## TODO
 * IPv6 address validation totally relies on [PHP's `filter_var`](https://php.net/filter-var) implementation, find a way 
   to validate it with the regular expression.
 * Port the regular expression to JavaScript for usage in HTML input URL elements and of course JavaScript itself.
 * Find more funny URLs for the unit test.
+
+## Weblinks
+- [Packagist](https://packagist.org/packages/fleshgrinder/url-validator)
 
 ## License
 > The MIT License (MIT)
