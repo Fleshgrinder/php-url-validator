@@ -440,6 +440,7 @@ final class URLTest extends \PHPUnit_Framework_TestCase
      */
     public function testValidURLsWithDiegoPerinisRegularExpression($url)
     {
+        $this->markTestSkipped();
         $this->assertTrue((boolean) preg_match(self::DPERINI_PATTERN, $url), $url);
     }
 
@@ -453,6 +454,7 @@ final class URLTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvalidURLsWithDiegoPerinisRegularExpression($url)
     {
+        $this->markTestSkipped();
         $this->assertFalse((boolean) preg_match(self::DPERINI_PATTERN, $url), $url);
     }
 
