@@ -129,6 +129,8 @@ final class URLTest extends \PHPUnit_Framework_TestCase
             array("http://[2010:836B:4179::836B:4179]"),
             array("http://a.b--c.de/"),
             array("http://www.foo´bar.com"),
+            array("http://www.example.com?test=123"),
+            array("http://www.example.com/path?test=123")
         );
     }
 
