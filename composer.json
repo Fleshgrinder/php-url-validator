@@ -24,6 +24,7 @@
         }
     },
     "require": {
+        "ext-intl": "*",
         "php": ">=5.3"
     },
     "autoload-dev": {
