@@ -1,0 +1,25 @@
+sudo:
+  false
+
+language:
+  php
+
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+  - 7
+  - hhvm
+
+env:
+    - RUN=${which phpunit}
+    - RUN=./vendor/bin/phpunit
+    - RUN=phpdbg -qrr ${which phpunit}
+    - RUN=phpdbg -qrr ./vendor/bin/phpunit
+
+script:
+  - ${RUN}
+
+before_script:
+  - composer self-update
+  - composer install --no-interaction --prefer-source

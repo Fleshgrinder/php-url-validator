@@ -1,4 +1,9 @@
 # URL Validation
+
+[![Build Status](https://travis-ci.org/rogeriopradoj/php-url-validator.svg)](https://travis-ci.org/rogeriopradoj/php-url-validator)
+
+Fork of https://github.com/Fleshgrinder/php-url-validator
+
 I made this repository specifically for Mathias Bynens' little “[in search of the perfect URL validation regex]
 (https://mathiasbynens.be/demo/url-regex)” challenge and if I may spoiler you from the beginning, mine is not
 perfect. But it is a step closer to it.
